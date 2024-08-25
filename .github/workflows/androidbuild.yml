@@ -1,12 +1,12 @@
 name: androidbuild
 
-  on:
+on:
     pull_request:
       branches : [master]
     push:
-      branches :[master]
-
-  jobs:
+      branches: [master]
+        
+jobs:
     build:
       runs-on: ubuntu-latest
       steps:
