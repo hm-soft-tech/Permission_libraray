@@ -20,6 +20,12 @@
         android:theme="@style/Theme.Compose_type_Safe_Navigation"
         tools:targetApi="31">
         <activity
+            android:name=".TestActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Tesst_branch_activity2"
+            android:exported="false" />
+        <activity
             android:name=".TestActivity"
             android:exported="false" />
         <activity
