@@ -38,6 +38,7 @@ import com.google.accompanist.permissions.shouldShowRationale
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             Compose_type_Safe_NavigationTheme {
                 // A surface container using the 'background' color from the theme
@@ -47,7 +48,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                   nav()
                  // permissionexample()
-                    multiplepermissionexample()
+
                 }
             }
         }
